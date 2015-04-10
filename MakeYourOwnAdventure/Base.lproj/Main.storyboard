@@ -24,7 +24,7 @@
         <!--View Controller-->
         <scene sceneID="a6g-AQ-kLP">
             <objects>
-                <viewController id="GC6-cP-wOM" sceneMemberID="viewController">
+                <viewController id="GC6-cP-wOM" customClass="ViewController" customModule="MakeYourOwnAdventure" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jME-JX-KIx"/>
                         <viewControllerLayoutGuide type="bottom" id="EUi-lb-MvU"/>
@@ -86,7 +86,7 @@ What should she do?
         <!--View Controller-->
         <scene sceneID="wBL-iO-viy">
             <objects>
-                <viewController id="UGI-oi-Vf8" sceneMemberID="viewController">
+                <viewController id="UGI-oi-Vf8" customClass="ViewController" customModule="MakeYourOwnAdventure" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dKE-s2-P95"/>
                         <viewControllerLayoutGuide type="bottom" id="Ugw-Or-2ZH"/>
@@ -135,7 +135,7 @@ What should she do?
         <!--View Controller-->
         <scene sceneID="Sxy-zo-Ew3">
             <objects>
-                <viewController id="T1i-ZY-Drs" sceneMemberID="viewController">
+                <viewController id="T1i-ZY-Drs" customClass="ViewController" customModule="MakeYourOwnAdventure" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EJ2-wX-Njc"/>
                         <viewControllerLayoutGuide type="bottom" id="hLf-SD-74o"/>
