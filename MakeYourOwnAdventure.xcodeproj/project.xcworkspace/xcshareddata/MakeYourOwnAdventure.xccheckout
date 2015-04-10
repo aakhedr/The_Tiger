@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0DE230C2-C43E-48C1-B5DD-B7A202E445C7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MakeYourOwnAdventure</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D5792716930A1BBB1AB225A6A7E073A127190086</key>
+		<string>https://github.com/aakhedr/The_Tiger.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MakeYourOwnAdventure.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D5792716930A1BBB1AB225A6A7E073A127190086</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/aakhedr/The_Tiger.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D5792716930A1BBB1AB225A6A7E073A127190086</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D5792716930A1BBB1AB225A6A7E073A127190086</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MakeYourOwnAdventure</string>
+		</dict>
+	</array>
+</dict>
+</plist>
