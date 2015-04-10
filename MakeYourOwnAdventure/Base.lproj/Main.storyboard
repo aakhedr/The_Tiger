@@ -99,7 +99,7 @@ What should she do?
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="An old man is startled out of his chair. But he recovers, and aims his rifle at the tiger with smile.  What should he do?  " translatesAutoresizingMaskIntoConstraints="NO" id="8eF-da-chK">
                                 <rect key="frame" x="19" y="72" width="563" height="197"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mtq-IQ-u6f">
@@ -154,7 +154,7 @@ What should she do?
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="An old man sleeps on a chair in the hallway. He has a rifle.  " translatesAutoresizingMaskIntoConstraints="NO" id="TLt-D6-TXS">
                                 <rect key="frame" x="19" y="72" width="563" height="197"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ref-Dh-Ezl">
@@ -163,7 +163,7 @@ What should she do?
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gtO-sZ-tML" kind="show" id="XM3-aB-gUc"/>
+                                    <segue destination="8ro-2m-Q14" kind="show" id="VC3-ld-UCi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldO-cR-FJU">
@@ -212,7 +212,7 @@ What should she do?
                                 <constraints>
                                     <constraint firstAttribute="height" constant="197" id="lgf-je-cJG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -247,7 +247,7 @@ What should she do?
                                 <constraints>
                                     <constraint firstAttribute="height" constant="197" id="smb-8h-tSF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -283,7 +283,7 @@ What should she do?
                                     <constraint firstAttribute="height" constant="197" id="hAX-w7-7eA"/>
                                 </constraints>
                                 <string key="text">There is mayhem. And cries, and cries and eventually a hail of darts.  When it is over, the Tiger wakes again in a room, without an open door.  </string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -299,64 +299,6 @@ What should she do?
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CSm-Ld-qvd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2054" y="345"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="ZSW-Az-oir">
-            <objects>
-                <viewController id="gtO-sZ-tML" customClass="ViewController" customModule="MakeYourOwnAdventure" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FRc-t6-MD3"/>
-                        <viewControllerLayoutGuide type="bottom" id="k3y-1w-kTE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Lrs-SB-aaG">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="At the end of the hallway there are two doors.  One smells like a kitchen, the other smells like the Tiger's native forest.  " translatesAutoresizingMaskIntoConstraints="NO" id="CwM-4r-uhg">
-                                <rect key="frame" x="19" y="72" width="563" height="197"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="197" id="eli-Xh-MMY"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96W-Pg-JK0">
-                                <rect key="frame" x="225" y="380" width="151" height="30"/>
-                                <state key="normal" title="Check out the kitchen">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="s5d-uE-HNm" kind="show" id="bCa-2q-bod"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDX-Dn-573">
-                                <rect key="frame" x="255" y="469" width="90" height="30"/>
-                                <state key="normal" title="Try the forest">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="WGX-kY-KWJ" kind="show" id="CEu-cu-L4W"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="CwM-4r-uhg" firstAttribute="leading" secondItem="Lrs-SB-aaG" secondAttribute="leadingMargin" constant="3" id="8cG-gZ-jzF"/>
-                            <constraint firstAttribute="centerX" secondItem="96W-Pg-JK0" secondAttribute="centerX" constant="-0.5" id="Fgh-TC-81r"/>
-                            <constraint firstAttribute="centerX" secondItem="JDX-Dn-573" secondAttribute="centerX" id="I5w-tt-VwR"/>
-                            <constraint firstAttribute="centerY" secondItem="96W-Pg-JK0" secondAttribute="centerY" constant="-95" id="OV6-mm-hGH"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="CwM-4r-uhg" secondAttribute="trailing" constant="2" id="TLx-FX-Zdd"/>
-                            <constraint firstItem="JDX-Dn-573" firstAttribute="top" secondItem="96W-Pg-JK0" secondAttribute="bottom" constant="59" id="ahS-JS-Brd"/>
-                            <constraint firstItem="CwM-4r-uhg" firstAttribute="top" secondItem="FRc-t6-MD3" secondAttribute="bottom" constant="8" id="bC3-nN-rKg"/>
-                            <constraint firstItem="96W-Pg-JK0" firstAttribute="top" secondItem="CwM-4r-uhg" secondAttribute="bottom" constant="111" id="mKo-8g-dEl"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="Qee-TE-ILR"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="46m-Cl-5hC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2054" y="1012"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MTl-fJ-LgE">
@@ -377,7 +319,7 @@ What should she do?
                                     <constraint firstAttribute="height" constant="197" id="GJA-Nc-IpE"/>
                                 </constraints>
                                 <string key="text">It is a kitchen, and there is a bowl with a bowl with a delicious raw steak.  She eats the steak, and wakes later in a room, without an open door.  </string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -412,7 +354,7 @@ What should she do?
                                 <constraints>
                                     <constraint firstAttribute="height" constant="197" id="xJc-9t-BlC"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -428,6 +370,61 @@ What should she do?
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KnQ-dj-jXk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2976" y="1421"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="O3h-1e-iu3">
+            <objects>
+                <viewController id="8ro-2m-Q14" customClass="ViewController" customModule="MakeYourOwnAdventure" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RrF-XG-r2w"/>
+                        <viewControllerLayoutGuide type="bottom" id="gxm-kh-oHU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="peI-xZ-H1W">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="At the end of the hallway there are two doors.  One smells like a kitchen, the other smells like the Tiger's native forest.  " translatesAutoresizingMaskIntoConstraints="NO" id="Stn-Oc-qec">
+                                <rect key="frame" x="19" y="72" width="563" height="197"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fu-JG-COz">
+                                <rect key="frame" x="255" y="469" width="90" height="30"/>
+                                <state key="normal" title="Try the forest">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WGX-kY-KWJ" kind="show" id="Obd-DO-H7c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCM-fq-j7Z">
+                                <rect key="frame" x="225" y="380" width="151" height="30"/>
+                                <state key="normal" title="Check out the kitchen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="s5d-uE-HNm" kind="show" id="AHh-Gq-4cM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Stn-Oc-qec" firstAttribute="top" secondItem="RrF-XG-r2w" secondAttribute="bottom" constant="8" id="32f-5l-tLS"/>
+                            <constraint firstAttribute="centerX" secondItem="2Fu-JG-COz" secondAttribute="centerX" constant="-0.5" id="6mk-dC-gkg"/>
+                            <constraint firstItem="Stn-Oc-qec" firstAttribute="leading" secondItem="peI-xZ-H1W" secondAttribute="leadingMargin" constant="3" id="73R-D1-rdg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Stn-Oc-qec" secondAttribute="trailing" constant="2" id="Jo9-Nf-iFI"/>
+                            <constraint firstAttribute="centerX" secondItem="LCM-fq-j7Z" secondAttribute="centerX" constant="-0.5" id="O9j-zh-H27"/>
+                            <constraint firstAttribute="centerY" secondItem="LCM-fq-j7Z" secondAttribute="centerY" constant="-95" id="YjQ-RZ-rET"/>
+                            <constraint firstItem="2Fu-JG-COz" firstAttribute="top" secondItem="LCM-fq-j7Z" secondAttribute="bottom" constant="59" id="cnf-Tr-E6W"/>
+                            <constraint firstItem="LCM-fq-j7Z" firstAttribute="top" secondItem="Stn-Oc-qec" secondAttribute="bottom" constant="111" id="in4-sj-2ap"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Koj-uY-1mo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gU7-W5-QMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2054" y="1044"/>
         </scene>
     </scenes>
 </document>

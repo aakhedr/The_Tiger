@@ -28,8 +28,8 @@ class ViewController: UIViewController {
         }
     }
     
-    deinit {
-        println("MYOAViewController deallocated")
-    }
+//    deinit {
+//        println("MYOAViewController deallocated")
+//    }
 }
 
