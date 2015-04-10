@@ -1,25 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="OQz-0a-fda">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="8Cf-So-A1o">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="OQz-0a-fda" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="glr-DW-nko">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="GC6-cP-wOM" kind="relationship" relationship="rootViewController" id="wK3-ep-b1E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gcy-BH-Gk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-134" y="270"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="a6g-AQ-kLP">
+            <objects>
+                <viewController id="GC6-cP-wOM" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="jME-JX-KIx"/>
+                        <viewControllerLayoutGuide type="bottom" id="EUi-lb-MvU"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="XTH-N5-ehs">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gcy-Rj-zv5">
+                                <rect key="frame" x="19" y="72" width="563" height="197"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoP-Bu-FuR">
+                                <rect key="frame" x="271" y="469" width="59" height="30"/>
+                                <state key="normal" title="Button 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xbc-q2-paL">
+                                <rect key="frame" x="271" y="380" width="59" height="30"/>
+                                <state key="normal" title="Button 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gcy-Rj-zv5" firstAttribute="leading" secondItem="XTH-N5-ehs" secondAttribute="leadingMargin" constant="3" id="1CS-Hd-ibm"/>
+                            <constraint firstAttribute="centerX" secondItem="JoP-Bu-FuR" secondAttribute="centerX" constant="-0.5" id="3DF-W0-uFJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gcy-Rj-zv5" secondAttribute="trailing" constant="2" id="6WE-Lc-NfA"/>
+                            <constraint firstAttribute="centerY" secondItem="Xbc-q2-paL" secondAttribute="centerY" constant="-95" id="OXl-tw-aTi"/>
+                            <constraint firstItem="gcy-Rj-zv5" firstAttribute="top" secondItem="jME-JX-KIx" secondAttribute="bottom" constant="8" id="Zqg-am-hLh"/>
+                            <constraint firstAttribute="centerX" secondItem="Xbc-q2-paL" secondAttribute="centerX" constant="-0.5" id="gTZ-1d-kas"/>
+                            <constraint firstItem="JoP-Bu-FuR" firstAttribute="top" secondItem="Xbc-q2-paL" secondAttribute="bottom" constant="59" id="ibA-73-k6c"/>
+                            <constraint firstItem="Xbc-q2-paL" firstAttribute="top" secondItem="gcy-Rj-zv5" secondAttribute="bottom" constant="111" id="tbU-wH-tsx"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Ptm-Rw-beo"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1qh-Td-8kD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="602" y="268"/>
         </scene>
     </scenes>
 </document>
