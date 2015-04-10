@@ -27,5 +27,9 @@ class ViewController: UIViewController {
             navigationController.popToRootViewControllerAnimated(true)
         }
     }
+    
+    deinit {
+        println("MYOAViewController deallocated")
+    }
 }
 

@@ -47,8 +47,8 @@ What should she do?
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoP-Bu-FuR">
-                                <rect key="frame" x="159" y="469" width="282" height="30"/>
-                                <state key="normal" title="Stalk to the door, peak down the hallway.">
+                                <rect key="frame" x="160" y="469" width="279" height="30"/>
+                                <state key="normal" title="Stalk to the door, peak down the hallway">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -68,12 +68,13 @@ What should she do?
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="gcy-Rj-zv5" firstAttribute="leading" secondItem="XTH-N5-ehs" secondAttribute="leadingMargin" constant="3" id="1CS-Hd-ibm"/>
-                            <constraint firstAttribute="centerX" secondItem="JoP-Bu-FuR" secondAttribute="centerX" constant="-0.5" id="3DF-W0-uFJ"/>
+                            <constraint firstAttribute="centerY" secondItem="JoP-Bu-FuR" secondAttribute="centerY" constant="-184" id="3gl-Nt-bM6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gcy-Rj-zv5" secondAttribute="trailing" constant="2" id="6WE-Lc-NfA"/>
                             <constraint firstAttribute="centerY" secondItem="Xbc-q2-paL" secondAttribute="centerY" constant="-95" id="OXl-tw-aTi"/>
                             <constraint firstItem="gcy-Rj-zv5" firstAttribute="top" secondItem="jME-JX-KIx" secondAttribute="bottom" constant="8" id="Zqg-am-hLh"/>
                             <constraint firstAttribute="centerX" secondItem="Xbc-q2-paL" secondAttribute="centerX" constant="-0.5" id="gTZ-1d-kas"/>
                             <constraint firstItem="JoP-Bu-FuR" firstAttribute="top" secondItem="Xbc-q2-paL" secondAttribute="bottom" constant="59" id="ibA-73-k6c"/>
+                            <constraint firstAttribute="centerX" secondItem="JoP-Bu-FuR" secondAttribute="centerX" constant="0.5" id="pEg-lZ-Frz"/>
                             <constraint firstItem="Xbc-q2-paL" firstAttribute="top" secondItem="gcy-Rj-zv5" secondAttribute="bottom" constant="111" id="tbU-wH-tsx"/>
                         </constraints>
                     </view>
@@ -321,7 +322,7 @@ What should she do?
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96W-Pg-JK0">
-                                <rect key="frame" x="225" y="380" width="151" height="60"/>
+                                <rect key="frame" x="225" y="380" width="151" height="30"/>
                                 <state key="normal" title="Check out the kitchen">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -330,7 +331,7 @@ What should she do?
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDX-Dn-573">
-                                <rect key="frame" x="255" y="499" width="90" height="30"/>
+                                <rect key="frame" x="255" y="469" width="90" height="30"/>
                                 <state key="normal" title="Try the forest">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -344,11 +345,11 @@ What should she do?
                             <constraint firstItem="CwM-4r-uhg" firstAttribute="leading" secondItem="Lrs-SB-aaG" secondAttribute="leadingMargin" constant="3" id="8cG-gZ-jzF"/>
                             <constraint firstAttribute="centerX" secondItem="96W-Pg-JK0" secondAttribute="centerX" constant="-0.5" id="Fgh-TC-81r"/>
                             <constraint firstAttribute="centerX" secondItem="JDX-Dn-573" secondAttribute="centerX" id="I5w-tt-VwR"/>
-                            <constraint firstAttribute="centerY" secondItem="96W-Pg-JK0" secondAttribute="centerY" constant="-110" id="OV6-mm-hGH"/>
+                            <constraint firstAttribute="centerY" secondItem="96W-Pg-JK0" secondAttribute="centerY" constant="-95" id="OV6-mm-hGH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="CwM-4r-uhg" secondAttribute="trailing" constant="2" id="TLx-FX-Zdd"/>
+                            <constraint firstItem="JDX-Dn-573" firstAttribute="top" secondItem="96W-Pg-JK0" secondAttribute="bottom" constant="59" id="ahS-JS-Brd"/>
                             <constraint firstItem="CwM-4r-uhg" firstAttribute="top" secondItem="FRc-t6-MD3" secondAttribute="bottom" constant="8" id="bC3-nN-rKg"/>
-                            <constraint firstItem="JDX-Dn-573" firstAttribute="top" secondItem="96W-Pg-JK0" secondAttribute="bottom" constant="59" id="cYD-Do-fO3"/>
-                            <constraint firstItem="96W-Pg-JK0" firstAttribute="top" secondItem="FRc-t6-MD3" secondAttribute="bottom" constant="316" id="wdg-vI-Soo"/>
+                            <constraint firstItem="96W-Pg-JK0" firstAttribute="top" secondItem="CwM-4r-uhg" secondAttribute="bottom" constant="111" id="mKo-8g-dEl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Qee-TE-ILR"/>
