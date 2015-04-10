@@ -19,7 +19,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gcy-BH-Gk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-134" y="270"/>
+            <point key="canvasLocation" x="-127" y="191"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="a6g-AQ-kLP">
@@ -33,24 +33,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gcy-Rj-zv5">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gcy-Rj-zv5">
                                 <rect key="frame" x="19" y="72" width="563" height="197"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <string key="text">An Immense tiger wakes in an empty room.
+
+A door opens into  a hallway.
+
+What should she do?
+
+</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoP-Bu-FuR">
-                                <rect key="frame" x="271" y="469" width="59" height="30"/>
-                                <state key="normal" title="Button 2">
+                                <rect key="frame" x="159" y="469" width="282" height="30"/>
+                                <state key="normal" title="Stalk to the door, peak down the hallway.">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="T1i-ZY-Drs" kind="show" id="MBC-cP-CJ1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xbc-q2-paL">
-                                <rect key="frame" x="271" y="380" width="59" height="30"/>
-                                <state key="normal" title="Button 1">
+                                <rect key="frame" x="191" y="380" width="219" height="30"/>
+                                <state key="normal" title="Leap through the door and roar!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="UGI-oi-Vf8" kind="show" id="XWC-0j-58X"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -69,7 +81,105 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1qh-Td-8kD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="602" y="268"/>
+            <point key="canvasLocation" x="533" y="191"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wBL-iO-viy">
+            <objects>
+                <viewController id="UGI-oi-Vf8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dKE-s2-P95"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ugw-Or-2ZH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5nB-lA-2xu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="First button leads here" translatesAutoresizingMaskIntoConstraints="NO" id="8eF-da-chK">
+                                <rect key="frame" x="19" y="72" width="563" height="197"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mtq-IQ-u6f">
+                                <rect key="frame" x="271" y="469" width="59" height="30"/>
+                                <state key="normal" title="Button 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSR-Xx-Pjn">
+                                <rect key="frame" x="271" y="380" width="59" height="30"/>
+                                <state key="normal" title="Button 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="pSR-Xx-Pjn" secondAttribute="centerY" constant="-95" id="4cW-Je-82G"/>
+                            <constraint firstAttribute="centerX" secondItem="pSR-Xx-Pjn" secondAttribute="centerX" constant="-0.5" id="AkK-b9-bBy"/>
+                            <constraint firstAttribute="centerX" secondItem="Mtq-IQ-u6f" secondAttribute="centerX" constant="-0.5" id="IVW-dP-GFJ"/>
+                            <constraint firstItem="8eF-da-chK" firstAttribute="top" secondItem="dKE-s2-P95" secondAttribute="bottom" constant="8" id="KSu-U5-PYa"/>
+                            <constraint firstItem="8eF-da-chK" firstAttribute="leading" secondItem="5nB-lA-2xu" secondAttribute="leadingMargin" constant="3" id="dpi-gI-BOB"/>
+                            <constraint firstItem="Mtq-IQ-u6f" firstAttribute="top" secondItem="pSR-Xx-Pjn" secondAttribute="bottom" constant="59" id="hTj-pg-8EI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8eF-da-chK" secondAttribute="trailing" constant="2" id="z53-gu-Wfy"/>
+                            <constraint firstItem="pSR-Xx-Pjn" firstAttribute="top" secondItem="8eF-da-chK" secondAttribute="bottom" constant="111" id="zgo-7s-VPN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Au-Xa-Vtm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yd8-8i-uJW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228" y="-348"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Sxy-zo-Ew3">
+            <objects>
+                <viewController id="T1i-ZY-Drs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EJ2-wX-Njc"/>
+                        <viewControllerLayoutGuide type="bottom" id="hLf-SD-74o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ccK-FT-dmR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Second button leads here" translatesAutoresizingMaskIntoConstraints="NO" id="TLt-D6-TXS">
+                                <rect key="frame" x="19" y="72" width="563" height="197"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ref-Dh-Ezl">
+                                <rect key="frame" x="271" y="469" width="59" height="30"/>
+                                <state key="normal" title="Button 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldO-cR-FJU">
+                                <rect key="frame" x="271" y="380" width="59" height="30"/>
+                                <state key="normal" title="Button 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="ldO-cR-FJU" secondAttribute="centerX" constant="-0.5" id="0CM-9e-lQD"/>
+                            <constraint firstItem="TLt-D6-TXS" firstAttribute="leading" secondItem="ccK-FT-dmR" secondAttribute="leadingMargin" constant="3" id="1tc-G7-zTw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TLt-D6-TXS" secondAttribute="trailing" constant="2" id="9Ub-PZ-0hI"/>
+                            <constraint firstAttribute="centerX" secondItem="Ref-Dh-Ezl" secondAttribute="centerX" constant="-0.5" id="Bbc-w4-gMF"/>
+                            <constraint firstItem="TLt-D6-TXS" firstAttribute="top" secondItem="EJ2-wX-Njc" secondAttribute="bottom" constant="8" id="Cwg-gB-GEA"/>
+                            <constraint firstItem="Ref-Dh-Ezl" firstAttribute="top" secondItem="ldO-cR-FJU" secondAttribute="bottom" constant="59" id="Rfl-tV-Jdq"/>
+                            <constraint firstAttribute="centerY" secondItem="ldO-cR-FJU" secondAttribute="centerY" constant="-95" id="nmS-mk-qY7"/>
+                            <constraint firstItem="ldO-cR-FJU" firstAttribute="top" secondItem="TLt-D6-TXS" secondAttribute="bottom" constant="111" id="tYa-hA-vUY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="f72-Va-RRn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8BH-wa-7uY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228" y="389"/>
         </scene>
     </scenes>
 </document>
